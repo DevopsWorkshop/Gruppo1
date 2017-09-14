@@ -6,7 +6,7 @@
 int risultato=Factor.factor(Integer.parseInt(request.getParameter("Numero")));
 %>
 
-<h2>Calcolo fattoriale di un numero </h2>
+<h2>Calcolo fattoriale di un numero intero </h2>
 Risultato : <%= risultato %>
 
 </body>
